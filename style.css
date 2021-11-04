@@ -1,0 +1,14 @@
+#init_layer {
+    display:none;
+}
+.layer {
+    margin:0.5rem;
+    padding:0.5rem;
+    border:solid 1px black;
+}
+
+.layer_title {
+    font-size:1.2rem;
+    font-weight:bold;
+}
+

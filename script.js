@@ -18,9 +18,7 @@ window.addEventListener("load" , function (){
     //レイヤーの削除
     function layer_delete(target){
         console.log(target)
-
         target.remove();
-
         //TODO:レイヤーが1,2,3とある状態で2を消すと、1と3になる。その後レイヤー追加をすると、レイヤー3が追加され、IDが重複する。
     }
 
@@ -68,7 +66,6 @@ window.addEventListener("load" , function (){
         }
 
         //TODO:描画個数を指定できるように対応。
-
         //間隔に応じて描画。(下記の0を許すと無限ループになる)
         if (span !== 0 || weight !== 0){
 
